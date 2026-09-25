@@ -1,0 +1,61 @@
+/* ===== 基础重置与设计变量 ===== */
+:root {
+  --bg: #fdfdfd;
+  --surface: #f7f7f2;
+  --text-primary: #1a1a1a;
+  --text-secondary: #737373;
+  --accent: #ffd60a;
+  --accent-hover: #e6c000;
+  --border: #e5e5e5;
+  --radius: 18px;
+  --nav-width: 220px;
+  --font-family: 'Comic Sans MS', 'Caveat', 'Patrick Hand', cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font-family);
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* 自定义通知提示,后续用来统一提醒样式 */
+.toast {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  background: var(--text-primary);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 100px;
+  font-size: 14px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 200;
+}
+.toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}

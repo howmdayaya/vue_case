@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="43.625 0 164.75 60"
+     role="img" aria-label="HZZ"
+     text-rendering="geometricPrecision">
+
+  <g>
+    <!-- 黄色错位背景层 -->
+    <text x="126" y="56"
+          text-anchor="middle"
+          font-family="'Comic Sans MS', 'Caveat', 'Patrick Hand', cursive"
+          font-size="64" font-weight="900" letter-spacing="1"
+          fill="#FFD400">HZZ</text>
+
+    <!-- 黑色主文字 -->
+    <text x="120" y="50"
+          text-anchor="middle"
+          font-family="'Comic Sans MS', 'Caveat', 'Patrick Hand', cursive"
+          font-size="64" font-weight="900" letter-spacing="1"
+          fill="#000000">HZZ</text>
+  </g>
+</svg>
