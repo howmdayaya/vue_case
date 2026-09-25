@@ -8,6 +8,7 @@
         <p>hello@example.com</p>
         <h4>所在位置</h4>
         <p>示例地址，请替换为您的实际信息</p>
+        <!-- Leaflet 地图 使用高德瓦片源 -->
         <div class="map-wrapper">
           <l-map ref="map" v-model:zoom="zoom" :center="[23.451012, 113.495497]">
             <l-tile-layer

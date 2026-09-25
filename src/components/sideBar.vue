@@ -34,7 +34,6 @@
 </template>
 
 <style scoped>
-  /* 整体布局 */
   .sidebar {
     width: var(--nav-width);
     position: fixed;
